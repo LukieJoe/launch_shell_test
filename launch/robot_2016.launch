@@ -2,10 +2,10 @@
 
 	<node pkg="motor_controller" type="joy_to_twist.py" name="joy_to_twist" respawn="true"> </node>
 	<node pkg="motor_controller" type="twist_to_motor.py" name="twist_to_motor" respawn="true"> </node>
-	<node pkg="motor_controller" type="wheel_velocity.py" name="fwheel_controller" args="fwheel $(128)" res$
-	<node pkg="motor_controller" type="wheel_velocity.py" name="bwheel_velocity" args="bwheel $(129)" respa$
+	<node pkg="motor_controller" type="wheel_velocity.py" name="fwheel_controller" args="fwheel $(128)" respawn="true"> </node>
+	<node pkg="motor_controller" type="wheel_velocity.py" name="bwheel_velocity" args="bwheel $(129)" respawn="true"> </node>
 	<node pkg="motor_controller" type="arm_test.py" name="arm_controller" args="arm $(130)" respawn="true">$
-	<node pkg="motor_controller" type="arm_test.py" name="hopper_controller" args="hopper $(131)" respawn="$
+	<node pkg="motor_controller" type="arm_test.py" name="hopper_controller" args="hopper $(131)" respawn="true"> </node>
 
 </launch>
 
